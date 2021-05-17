@@ -1,3 +1,60 @@
+body{
+    margin: 0;
+}
+
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+}
+
+#nav a{
+    margin-right: 22px;
+}
+
+#nav a.topimage{
+    width: 26px;
+    height: 26px;
+    background: blueviolet;
+    border-radius: 50%;
+}
+
+#content{
+    margin-top: 220px;
+}
+
+#logo{
+    text-align: center;
+}
+
+#searchbarcontainer{
+    margin-top: 22px;
+    text-align: center;
+}
+
+#searchbar{
+    padding : 10px 10px;
+    outline: 0;
+    width: 500px;
+    border-radius: 26px;
+    border: 2px solid #eeee;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+}
+
+.button{
+    margin: 0 10px;
+    padding: 10px 16px;
+    cursor: pointer;
+    background: #eeee;
+    border-radius: 5px;
+}
+
+
 
 .center {
     position: absolute;
